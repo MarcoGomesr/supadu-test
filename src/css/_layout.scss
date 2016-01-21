@@ -1,0 +1,162 @@
+
+.banner{	
+	background : $color__blue--dark;
+	padding: 10px;
+	height: 57px;
+	span{
+		color: $color__blue--light;
+	}	
+	p{
+		color: white;
+	}	
+}
+
+.logo{
+	margin-top: 17px;
+}
+
+h3{
+	color: $color__blue--light;	
+}
+
+
+
+.sp{
+	margin: 0 10px
+}
+
+.lblue{
+	color: $color__blue--light;	
+	font-weight: normal;
+}
+
+.vlblue{
+	color: $color__blue--vvlight;
+}
+
+.white{
+	color: white;
+}
+
+.dblue{
+	color: $color__blue--dark;
+}
+
+.up{
+	text-transform: uppercase;
+}
+
+
+.time,.title{
+	height: 37px;
+	text-transform: uppercase;
+	line-height: 37px;
+    padding: 0 10px;	
+}
+
+.title{
+	background : $color__blue--dark;	
+	color: white;
+    margin: 37px 0;
+}
+
+
+.time{
+	position: relative;
+	background:$color__blue--vlight;
+	span{
+		margin-right: 10px;
+	}
+}
+
+
+.accordion{
+	margin-top: 20px;
+	height: 310px;
+	width: 300px;
+	background: $color__blue--light;
+	p{
+		padding: 0 25px;
+	    margin: 0;
+	    color: #fff;
+	    font-size: 10pt;
+
+
+		&.lblue{
+			color: $color__blue--light;	
+			font-weight: normal;
+		}
+
+		&.vlblue{
+			color: $color__blue--vvlight;
+		}
+
+		&.white{
+			color: white;
+		}
+
+		&.dblue{
+			color: $color__blue--dark;
+			font-weight: bold;
+		}
+	}
+
+	article{
+	    margin: 10px 0;
+	}
+
+}
+
+
+.accordion__title--first{
+	margin: 5px 25px 0;
+    display: block;
+    font-size: 15pt;
+    color: white;
+}
+
+.accordion__title--sec{
+    display: block;
+    margin: 13px 7px 0;
+    color: white;
+    font-size: 9pt;
+}
+
+
+.ocean{
+	width:300px;
+	margin-top: 20px;
+	p, span{
+		font-size: 13pt;
+	}
+}
+.active{
+	padding: 10px 0;
+	background : $color__blue--dark
+}
+
+
+.active {
+	position: relative;
+}
+.active:after{
+    content: " ";
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;    
+    position: absolute;
+    border-width: 18px 0px 19px 7px;
+    border-style: solid;
+    top: 20px;
+    border-color: transparent transparent transparent #FFFFFB;
+}
+
+.time:after{
+	content: " ";
+	background: url("../img/icon.png") no-repeat;
+    position: absolute;
+   	right: 15px;
+    top: 10px;
+    width: 19px;
+    height: 19px;
+}
+

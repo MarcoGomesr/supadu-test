@@ -1,0 +1,153 @@
+body {
+  font-weight: 300;
+}
+
+.banner {
+  background: #062c61;
+  padding: 10px;
+  height: 57px;
+}
+.banner span {
+  color: #00b3eb;
+}
+.banner p {
+  color: white;
+}
+
+.logo {
+  margin-top: 17px;
+}
+
+h3 {
+  color: #00b3eb;
+}
+
+.sp {
+  margin: 0 10px;
+}
+
+.lblue {
+  color: #00b3eb;
+  font-weight: normal;
+}
+
+.vlblue {
+  color: #8bdcf5;
+}
+
+.white {
+  color: white;
+}
+
+.dblue {
+  color: #062c61;
+}
+
+.up {
+  text-transform: uppercase;
+}
+
+.time, .title {
+  height: 37px;
+  text-transform: uppercase;
+  line-height: 37px;
+  padding: 0 10px;
+}
+
+.title {
+  background: #062c61;
+  color: white;
+  margin: 37px 0;
+}
+
+.time {
+  position: relative;
+  background: #ccf0fb;
+}
+.time span {
+  margin-right: 10px;
+}
+
+.accordion {
+  margin-top: 20px;
+  height: 310px;
+  width: 300px;
+  background: #00b3eb;
+}
+.accordion p {
+  padding: 0 25px;
+  margin: 0;
+  color: #fff;
+  font-size: 10pt;
+}
+.accordion p.lblue {
+  color: #00b3eb;
+  font-weight: normal;
+}
+.accordion p.vlblue {
+  color: #8bdcf5;
+}
+.accordion p.white {
+  color: white;
+}
+.accordion p.dblue {
+  color: #062c61;
+  font-weight: bold;
+}
+.accordion article {
+  margin: 10px 0;
+}
+
+.accordion__title--first {
+  margin: 5px 25px 0;
+  display: block;
+  font-size: 15pt;
+  color: white;
+}
+
+.accordion__title--sec {
+  display: block;
+  margin: 13px 7px 0;
+  color: white;
+  font-size: 9pt;
+}
+
+.ocean {
+  width: 300px;
+  margin-top: 20px;
+}
+.ocean p, .ocean span {
+  font-size: 13pt;
+}
+
+.active {
+  padding: 10px 0;
+  background: #062c61;
+}
+
+.active {
+  position: relative;
+}
+
+.active:after {
+  content: " ";
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  border-width: 18px 0px 19px 7px;
+  border-style: solid;
+  top: 20px;
+  border-color: transparent transparent transparent #FFFFFB;
+}
+
+.time:after {
+  content: " ";
+  background: url("../img/icon.png") no-repeat;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 19px;
+  height: 19px;
+}
+
+/*# sourceMappingURL=style.css.map */
